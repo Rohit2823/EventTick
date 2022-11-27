@@ -1,0 +1,62 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ternaems-staging-101140-authRole",
+      "UnauthRoleArn": "arn:aws:iam::244178105050:role/amplify-ternaems-staging-101140-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::244178105050:role/amplify-ternaems-staging-101140-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-ternaems-staging-101140-deployment",
+      "UnauthRoleName": "amplify-ternaems-staging-101140-unauthRole",
+      "StackName": "amplify-ternaems-staging-101140",
+      "StackId": "arn:aws:cloudformation:ap-south-1:244178105050:stack/amplify-ternaems-staging-101140/459648c0-455f-11ed-9677-02c48a6093b0",
+      "AmplifyAppId": "d2g0792hadh4zs",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-ternaems-staging-101140-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "TernaEMS": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "TernaEMSPostConfirmation": {
+          "GROUP": "Students",
+          "deploymentBucketName": "amplify-ternaems-staging-101140-deployment",
+          "s3Key": "amplify-builds/TernaEMSPostConfirmation-2b585462497a4b564a51-build.zip"
+        }
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ternaems-test-123312-authRole",
+      "UnauthRoleArn": "arn:aws:iam::007040099791:role/amplify-ternaems-test-123312-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::007040099791:role/amplify-ternaems-test-123312-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ternaems-test-123312-deployment",
+      "UnauthRoleName": "amplify-ternaems-test-123312-unauthRole",
+      "StackName": "amplify-ternaems-test-123312",
+      "StackId": "arn:aws:cloudformation:us-east-1:007040099791:stack/amplify-ternaems-test-123312/94131c90-6e21-11ed-ad12-0aeda62bf633",
+      "AmplifyAppId": "d210k87i1qx9rt",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-ternaems-test-123312-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "TernaEMS": {},
+        "userPoolGroups": {}
+      },
+      "function": {
+        "TernaEMSPostConfirmation": {
+          "GROUP": "Event-Tick-V3",
+          "deploymentBucketName": "amplify-ternaems-test-123312-deployment",
+          "s3Key": "amplify-builds/TernaEMSPostConfirmation-2b585462497a4b564a51-build.zip"
+        }
+      },
+      "api": {
+        "TernaEMS": {}
+      },
+      "storage": {
+        "s3ternaemsstorage3a6a3a0c": {}
+      }
+    }
+  }
+}
